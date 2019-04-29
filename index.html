@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rosemary Hale</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./src/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="./src/app.js"></script>
+
+  <!-- nanogallery2 -->
+  <link href="https://unpkg.com/nanogallery2@2.2.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://unpkg.com/nanogallery2@2.2.0/dist/jquery.nanogallery2.min.js"></script>
+
+
+</head>
+
+<body class="scrollmotion">
+  <header>
+    <nav id="navbar">
+      <a href="./" class="navbar-logo-wrapper">
+        <img src="./assets/img/logo.png" alt="logo" class="navbar-logo">
+      </a>
+      <a id="close-menu">
+        <i class="fa fa-close navbar-list-close"></i>
+      </a>
+      <ul id="mobile-menu" class="navbar-list">
+        <li class="navbar-item">
+          <a href="#banner-full" class="navbar-link navbar-parent-item">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link navbar-parent-item">About</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#gallery" class="navbar-link navbar-parent-item">Gallery</a>
+        </li>
+        <li class="navbar-item navbar-level">
+          <a href="#workshops" class="navbar-link navbar-parent-item">Painting Tuition</a>
+          <ul class="navbar-sub-level level-two">
+            <li class="navbar-item navbar-sub-item">
+              <a href="weeklygroups.html" class="navbar-link">
+                Weekly Art Groups
+              </a>
+            </li>
+            <li class="navbar-item navbar-sub-item">
+              <a href="dayworkshops.html" class="navbar-link">
+                Day Workshops
+              </a>
+            </li>
+            <li class="navbar-item navbar-sub-item">
+              <a href="outdoor.html" class="navbar-link">
+                Outdoor Painting
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="navbar-item">
+          <a href="#contact-section" class="navbar-link navbar-parent-item">Contact</a>
+        </li>
+      </ul>
+      <li id="open-menu" class="navbar-item">
+        <a href="javascript:;" class="navbar-link open-menu">
+          <i class="fa fa-bars"></i>
+        </a>
+      </li>
+    </nav>
+    <section id="banner-full">
+      <div class="banner-full-item">
+        <div class="banner-full-overlay"></div>
+        <img src="./assets/img/irishman-s-point-skye.jpg"  alt="" class="banner-full-image">
+        <p class="banner-full-text">Irishman's Point, Skye</p>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section id="about">
+      <div class="section-text-wrapper">
+        <h1 class="section-title">ABOUT MYSELF</h1>
+        <p class="section-text">Artist and art tutor, Rosemary Hale, is based in Staffordshire. Most of her tutoring
+          work entails running art groups
+          and workshops. Demonstrations are key to her relaxed tutoring style and painting in the &quot;great
+          outdoors&quot;
+          is something she encourages all her students to do.</p>
+        <p class="section-text">
+          Rosemary is primarily a watercolourist but will teach in most media. Painting seascapes and wilderness
+          landscapes are her
+          “thing” but her choice of subjects and media when teaching are usually student led. Currently, Rosemary
+          teaches
+          at three locations in Staffordshire – please see the <a class="read-more" href="#workshops">Workshop</a>
+          section for details.</p>
+      </div>
+      <div id="aboutme-image-wrapper">
+        <img id="aboutme-image" src="./assets/img/aboutme.png" alt="image" class="section-image">
+      </div>
+    </section>
+    <section id="gallery">
+      <div class="banner-full-item">
+        <img src="./assets/img/dads-100th-nz-given-to-ruth-martin.jpg" alt="" class="banner-full-image">
+        <p class="banner-full-text gallery-full-text">Gallery</p>
+      </div>
+      <div>
+        <div ID="main-gallery" data-nanogallery2='{
+            "itemsBaseURL": "assets/img/gallery/",
+            "thumbnailWidth": "400",
+            "thumbnailHeight": "250",
+            "thumbnailBorderVertical": 1,
+            "thumbnailBorderHorizontal": 1,
+            "galleryDisplayMode": "rows",
+            "thumbnailAlignment": "center",
+            "displayBreadcrumb": false
+          }'>
+          <a href="Cotton_grass_explosion_ 2013.jpg" data-ngthumb="Cotton_grass_explosion_ 2013-thumb.jpg" data-ngdesc="">Cotton
+            grass explosion</a>
+          <a href="snow-mountain.jpg" data-ngthumb="snow-mountain-thumb.jpg" data-ngdesc="">Corrie an t-Sneachda</a>
+          <a href="Dawn_breaks_over_Knoydart.jpg" data-ngthumb="Dawn_breaks_over_Knoydart-thumb.jpg" data-ngdesc="">Dawn
+            breaks over Knoydart</a>
+          <a href="Skerryvore.jpg" data-ngthumb="Skerryvore-thumb.jpg" data-ngdesc="">Skerryvore - no landing today!</a>
+          <a href="Shiants.jpg" data-ngthumb="Shiants-thumb.jpg" data-ngdesc="">Overnight to the Shiants</a>
+          <a href="Under_the_Bowsprit.jpg" data-ngthumb="Under_the_Bowsprit-thumb.jpg" data-ngdesc="">Under the
+            Bowsprit</a>
+
+    </section>
+    </div>
+    </section>
+    <section id="workshops">
+      <h1 class="section-header">Painting Tuition</h1>
+      <article id="weekly-art-groups" class="excerpt">
+        <div class="section-body">
+          <div class="section-content-wrapper text-left">
+            <h1 class="section-title">Weekly Art Groups</h1>
+            <p class="section-text">Painting groups meet weekly and are an enjoyable way to develop your painting
+              skills with Rosemary&#39;s help.
+              They take place at three venues in Staffordshire.
+            </p>
+            <p class="section-text">Joining in with a weekly art group is a chance to paint with like-minded people in
+              a comfortable atmosphere.
+              All with guidance from a professional artist and tutor who shows, through demonstration of painting
+              techniques
+              (and sometimes a complete painting demonstration) how to progress and gain even more enjoyment from your
+              hobby
+              and passion.
+            </p>
+            <a class="read-more" href="weeklygroups.html">More details...</a>
+
+
+          </div>
+          <div class="section-content-wrapper image">
+            <img src="./assets/img/derrington art group 2018.JPG" alt="image" class="section-image">
+          </div>
+        </div>
+      </article>
+      <article id="day-workshops" class="excerpt excerpt-right">
+        <div class="section-body">
+          <div class="section-content-wrapper image">
+            <img src="./assets/img/worshop-img-2.jpg" alt="image" class="section-image">
+          </div>
+          <div class="section-content-wrapper text-right">
+            <h1 class="section-title">Day Workshops</h1>
+            <p class="section-text">All are suitable for any level of painting experience, and class numbers are
+              limited, allowing time for tuition
+              on a one-to-one basis when required.</p>
+            <p class="section-text">
+              There will be a choice of projects, usually in watercolour, but not exclusively so. Each project is
+              demonstration led with
+              Rosemary painting each step to show brushwork &amp; teach paint mixing skills. She will also address
+              composition
+              elements to the work plus other aspects such as tonal balance.</p>
+            <a class="read-more" href="dayworkshops.html">More details...</a>
+          </div>
+        </div>
+      </article>
+      <article id="weekly-art-groups" class="excerpt">
+        <div class="section-body">
+          <div class="section-content-wrapper text-left">
+            <h1 class="section-title">Outdoor Painting</h1>
+            <p class="section-text">These very enjoyable events are held during the summer months in beautiful
+              locations in Staffordshire and Derbyshire.
+            </p>
+            <p class="section-text">. Each typically starts with a demonstration and general advice on painting
+              outside. After this, each person settles down with their own choice of subject to paint and Rosemary is
+              on hand to guide and encourage throughout the remainder of the day.
+            </p>
+            <a class="read-more" href="outdoor.html">More details...</a>
+
+
+          </div>
+          <div class="section-content-wrapper image">
+            <img src="./assets/img/outdoorpainting.jpg" style="height: 350px;" alt="image" class="section-image">
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="contact-section">
+
+      <form id="contact-form">
+
+        <h1 class="contact-form-title"> Contact </h1>
+        <div class="contact-wrapper">
+          <p>
+            Please contact me at
+
+            <a class="white-link" href="mailto:rosemary@rosemaryhale.co.uk?Subject=Contact" target="_top">rosemary@rosemaryhale.co.uk</a>
+          </p>
+          </p>
+          <br>
+          <p><a href="mailto:rosemary@rosemaryhale.co.uk?Subject=Contact" id="contact-form-submit">Send E-Mail</a></p>
+        </div>
+        <!-- <input class="contact-form-field inline float-left" type="text" placeholder="Name" required>
+        <input class="contact-form-field inline float-right" type="text" placeholder="Phone">
+        <input class="contact-form-field" type="text" placeholder="E-mail" required>
+        <textarea class="contact-form-field user-message" placeholder="Write your message..." required></textarea>
+        <button type="submit" id="contact-form-submit">Send</button> -->
+      </form>
+    </section>
+  </main>
+  <script src="./src/app.js"></script>
+</body>
+
+</html>

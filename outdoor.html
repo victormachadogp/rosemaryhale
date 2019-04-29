@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rosemary Hale</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="./src/app.js"></script>
+    <!-- nanogallery2 -->
+    <link href="https://unpkg.com/nanogallery2@2.2.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2@2.2.0/dist/jquery.nanogallery2.min.js"></script>
+  </head>
+
+  <body>
+      <header>
+          <nav id="navbar">
+            <a href="./" class="navbar-logo-wrapper">
+              <img src="./assets/img/logo.png" alt="logo" class="navbar-logo">
+            </a>
+            <a id="close-menu">
+              <i class="fa fa-close navbar-list-close"></i>
+            </a>
+            <ul id="mobile-menu" class="navbar-list">
+              <li class="navbar-item">
+                <a href="./" class="navbar-link navbar-parent-item">Home</a>
+              </li>
+              <li class="navbar-item">
+                <a href="./#about" class="navbar-link navbar-parent-item">About</a>
+              </li>
+              <li class="navbar-item">
+                <a href="./#gallery" class="navbar-link navbar-parent-item">Gallery</a>
+              </li>
+              <li class="navbar-item navbar-level">
+                <a href="./#workshops" class="navbar-link navbar-parent-item">Painting Tuition</a>
+                <ul class="navbar-sub-level level-two">
+                  <li class="navbar-item navbar-sub-item">
+                    <a href="weeklygroups.html" class="navbar-link">
+                      Weekly Art Groups
+                    </a>
+                  </li>
+                  <li class="navbar-item navbar-sub-item">
+                    <a href="dayworkshops.html" class="navbar-link">
+                      Day Workshops
+                    </a>
+                  </li>
+                  <li class="navbar-item navbar-sub-item">
+                    <a href="outdoor.html" class="navbar-link">
+                      Outdoor Painting
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-item">
+                <a href="./#contact-section" class="navbar-link navbar-parent-item">Contact</a>
+              </li>
+            </ul>
+            <li id="open-menu" class="navbar-item">
+              <a href="javascript:;" class="navbar-link open-menu">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li>
+          </nav>
+        </header>
+    <main>
+      <section id="workshops" class="outdoor-page">
+        <h1 class="section-header">Outdoor Paiting Days</h1>
+        <div class="section-body">
+          <div class="">
+            <p class="section-text "> These very enjoyable events are held during the summer months in beautiful
+              locations in Staffordshire and Derbyshire. Each typically starts with a demonstration and general advice
+              on painting outside. After this, each person settles down with their own choice of subject to paint and
+              Rosemary is on hand to guide and encourage throughout the remainder of the day. </p>
+            <p class="section-text">From Rosemary’s sketchbook, a demonstration at Weston Park in August 2018:</p>
+            <div class="section-content-wrapper image">
+              <img class="image" src="./assets/img/Sketch_Weston_Park.jpg" alt="image" class="section-image">
+            </div>
+            <p class="section-text">Anything can go into your sketchbook including written notes, feathers and daubs of
+              mud. Well, that’s what Rosemary believes anyway! So on her outdoor painting days, you can feel free to
+              paint your own choice of subject using whatever style and method that suits you. Watercolour, graphite,
+              pastels, acrylics, ink….most of these find their way into Rosemary’s rucksack at some time during her
+              trips into the countryside. Her most favoured method, when wanting to quickly capture an image outside
+              uses watercolour paper, a soluble ink pen and water brush. These relatively cheap and portable materials
+              enable you to work at speed… and are especially useful if you are on the move, such as on holiday.</p>
+            <p class="section-text">
+              <span class="bold">What does sketching mean? </span> Sketching is a very loose term which covers all
+              manner of drawing and painting activities. For example, a sketch can be a simple line drawing done in
+              pencil or ink, or a more extensive watercolour image with pencil added later. </p>
+            <p class="section-text"> A recent example from my own sketchbook:</p>
+            <div class="">
+              <div class="photo-column">
+                <img class="image" src="assets/img/Staffordshire_field_byre_sketch.jpg">
+                <p>Ink sketch of an old field byre in Staffordshire</p>
+              </div>
+            </div>
+            <div class="">
+              <div class="photo-column">
+                <p class="section-text">The subject:</p>
+                <img class="image" src="assets/img/Staffordshire_field_byre.jpg">
+              </div>
+            </div>
+            <p class="section-text">A video demonstration:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P_gJBg9DERo?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <p class="bold"> 2018 events have now been completed but there will be more in 2019 so please watch this space
+          for details next year. </p>
+      </section>
+      <section class="">
+        <h2 class="section-subheader">Pages from my Sketchbook</h2>
+        <div ID="sketch-gallery" data-nanogallery2='{
+        "itemsBaseURL": "assets/img/sketch-gallery/",
+        "thumbnailWidth": "400",
+        "thumbnailHeight": "250",
+        "thumbnailBorderVertical": 1,
+        "thumbnailBorderHorizontal": 1,
+        "galleryDisplayMode": "rows",
+        "thumbnailAlignment": "center",
+        "displayBreadcrumb": false
+      }'>
+          <a href="DSC01834.JPG" data-ngthumb="DSC01834.JPG" data-ngdesc=""></a>
+          <a href="DSC01849 (2).jpg" data-ngthumb="DSC01849 (2).jpg" data-ngdesc=""></a>
+          <a href="DSC02340 (2).JPG" data-ngthumb="DSC02340 (2).JPG" data-ngdesc=""></a>
+          <a href="DSC03772.JPG" data-ngthumb="DSC03772.JPG" data-ngdesc=""></a>
+          <a href="DSC07649.JPG" data-ngthumb="DSC07649.JPG" data-ngdesc=""></a>
+          <a href="DSC09489.JPG" data-ngthumb="DSC09489.JPG" data-ngdesc=""></a>
+      </section>
+      </div>
+    </main>
+    <script src="./src/app.js"></script>
+  </body>
+
+</html>
