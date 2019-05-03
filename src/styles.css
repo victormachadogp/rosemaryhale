@@ -5,7 +5,7 @@
 .navbar-logo-wrapper:before {
   content: "";
   position: fixed;
-  background: url('../assets/img/logo-ink.png');
+  background: url('../assets/img/watercolor-line20.png');
   left: 0;
   top: 0px;
   width: 274px;
@@ -13,6 +13,82 @@
   z-index: -1;
   opacity: 0.8;
 }
+
+/* New for 2019 text and image */
+
+.text-watercolor {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  margin-top: 30px;
+  position: absolute;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.call {
+  position: relative;
+}
+
+.watercolor-letter {
+  font-size: 18px;
+  align-self: center;
+}
+
+
+/* Paint Tutiton Background Line */
+
+.background-call {
+  position: relative;
+  margin: 1%;
+}
+
+.tuition-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;  
+  
+  color: white !important;
+}
+
+.watercolor2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+
+  .text-watercolor {
+    padding: 4%;
+}
+
+.watercolor {
+  height: 300px !important;
+  
+}
+
+.watercolor2 {
+  width: 90%;
+  height: 100px !important;
+}
+
+.tuition-text {
+  padding: 9%;
+  padding-top: 12px;
+}
+
+}
+
+
 
 body {
   
@@ -22,6 +98,7 @@ body {
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
+  
 }
 * {
   -webkit-box-sizing: border-box;
@@ -185,7 +262,7 @@ header {
   width: 571px;
   height: 250px;
   z-index: -1;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 #aboutme-image {
@@ -374,6 +451,10 @@ iframe {
 }
 .bold {
   font-weight: bold;
+}
+
+.margin-top {
+  margin-top: 30px;
 }
 
 /* excerpts */
