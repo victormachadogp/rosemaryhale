@@ -14,6 +14,27 @@
   opacity: 0.8;
 }
 
+
+@media (max-width: 464px) {
+
+  .text-overflow-out {
+    height: 135px !important;
+
+  }
+}
+
+
+
+@media (max-width: 390px) {
+
+  .text-overflow-week {
+    height: 135px;
+
+  }
+}
+
+
+
 /* Weekly Art Group Image*/
 
 .group-painting {
@@ -117,6 +138,8 @@ h2 {
 
 
 
+
+
 /* Paint Tutiton Background Line */
 
 .background-call {
@@ -155,7 +178,7 @@ h2 {
 
 .watercolor2 {
   width: 90%;
-  height: 100px !important;
+  height: 100px;
 }
 
 .tuition-text {
@@ -963,5 +986,24 @@ footer {
   }
   .navbar-list .navbar-item:first-child {
     padding-top: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .text-overflow-group {
+    height: 130px !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1050px) {
+
+  .text-overflow-group {
+    width: 100%;
+    /* height: 130px !important; */
+  }
+
+  .friends-text {
+  font-size: 22px;
   }
 }
