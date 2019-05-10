@@ -93,6 +93,16 @@
   }
 }
 
+/* Contact */
+
+.contact {
+  font-size: 30px;
+  text-align: center;
+  /* text-shadow: 1px 1px 4px rgba(0, 0, 0, .13); */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* New for 2019 text and image */
 
 .text-watercolor {
@@ -101,7 +111,7 @@
   flex-direction: column;
   width: 100%;
   color: white;
-  margin-top: 30px;
+  margin-top: 20px;
   position: absolute;
 }
 
@@ -114,17 +124,23 @@ h2 {
 .call {
   position: relative;
   text-align: center;
+  margin-top: 1.8%;
 }
 
 .watercolor {
   width: 88%;
 }
 
+.try {
+  padding-top: 0px !important;
+}
+
 .watercolor-letter {
-  font-size: 17px;
+  font-size: 18px;
   align-self: center;
   padding-bottom: 40px;
-  margin-top: 8px !important;
+  margin-top: 13px !important;
+  line-height: 1.5;
 }
 
 @media (min-width: 501) and (max-width: 1201) {
@@ -135,10 +151,19 @@ h2 {
 
 }
 
+@media (min-width: 534px) and (max-width: 992px) {
 
+  .text-watercolor {
+    margin-top: 30px !important;
 
+  }
 
-
+  .watercolor-letter {
+    font-size: 18px !important; 
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+}
 
 /* Paint Tutiton Background Line */
 
@@ -204,6 +229,8 @@ h2 {
 
 }
 
+
+
 @media (min-width: 501px) and (max-width: 992px) {
   
   .watercolor {
@@ -243,6 +270,19 @@ h2 {
 
   
 }
+
+.castle-text {
+  margin-top: 50px;
+}
+
+@media (min-width: 1100px) {
+
+.castle-image {
+  max-width: 450px;
+}
+
+}
+
 
 
 
@@ -1007,3 +1047,4 @@ footer {
   font-size: 22px;
   }
 }
+
